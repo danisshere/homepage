@@ -413,8 +413,8 @@ Button
     padding: 1rem 2rem;
 }
 .btn-primary:hover{
-    background-color: #eee;
-    border-color: #eee;
+    background-color: #000;
+    border-color: #000;
     color:#4466c9;
 }
 
@@ -750,7 +750,7 @@ textarea::-ms-input-placeholder{
 .head_title h2{
     font-weight: 700;
     font-size:2.250rem;
-    color:#648cff;
+    color:#eb1b24;
 }
 .head_title h5{
     font-weight: 400;
@@ -764,7 +764,7 @@ textarea::-ms-input-placeholder{
 
 /*Preloader*/
 #loading{
-    background-color: #fc6a42;
+    background-color: #eb1b24;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -918,9 +918,10 @@ Home Section style
 ==================*/
 
 .home{
-    background: url(../images/homebg3.png) no-repeat top center;
+    background: url(../images/capa_sitea1.png) no-repeat top center;
     background-size: cover;
     position: relative;
+    width: 100%
 }
 .main_home{
     overflow: hidden;
@@ -1045,7 +1046,7 @@ Screen01 Section style
     font-weight: 300;
     transform: rotate(90deg);
     position: absolute;
-    color: #ddd;
+    color: #000;
     z-index: 0;
 }
 .rainy{
@@ -1250,10 +1251,10 @@ nav.navbar.bootsnav.footer-menu{
     border-bottom: 0px;
 }
 nav.navbar.bootsnav.footer-menu ul li a{
-    color:#b5b5c8;
+    color:black;
 }
 nav.navbar.bootsnav.footer-menu ul li a:hover{
-    color:#fff;
+    color:black;
 }
 .divider{
     width:100%;
@@ -1318,4 +1319,9 @@ nav.navbar.bootsnav.footer-menu ul li a:hover{
 
 .fb{
     margin-left: 30%
+}
+
+
+.navbar-menu{
+    color: #000;
 }
